@@ -1,0 +1,3 @@
+#!/bin/sh
+
+docker run --dns 8.8.8.8 -v $PWD:/src thoughtbot/paperback build "$@"
